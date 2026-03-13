@@ -1,0 +1,11 @@
+# ─────────────────────────────────────────────
+#  Discord Giveaway Bot — Environment Variables
+# ─────────────────────────────────────────────
+
+# Your bot token from https://discord.com/developers/applications
+DISCORD_TOKEN=
+
+# Comma-separated role IDs that can manage giveaways and look up Steam IDs
+# Admins (Administrator permission) are always allowed regardless of this list
+# Example: ALLOWED_ROLE_IDS=123456789012345678,987654321098765432
+ALLOWED_ROLE_IDS=1403814991701737545
