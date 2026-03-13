@@ -4,13 +4,13 @@ import asyncio
 import sqlite3
 import re
 from datetime import datetime, timezone
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 import discord
 from discord import app_commands
 from discord.ext import commands
 
-load_dotenv()
+# load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 ALLOWED_ROLE_IDS = [
