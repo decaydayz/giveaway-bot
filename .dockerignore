@@ -1,0 +1,33 @@
+# Python-related
+.venv
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.bkp
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env
+.env.local
+.env.*.local
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Optional: build artifacts or folders you don't want in container
+dist/
+coverage/
+.vscode/
+.idea/
